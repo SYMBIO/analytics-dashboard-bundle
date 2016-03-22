@@ -1,16 +1,7 @@
 <?php
-/**
- * This file is part of the PrestaGoogleAnalyticsDashboardBundle.
- *
- * (c) PrestaConcept <http://www.prestaconcept.net>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
+
 namespace Symbio\OrangeGate\AnalyticsBundle\Model\Response;
-/**
- * @author Nicolas Bastien <nbastien@prestaconcept.net>
- */
+
 class Row
 {
     /**
@@ -79,4 +70,3 @@ class Row
         return round($this->properties['ga:visitBounceRate'], 2);
     }
 }
-Status API Training Shop Blog About
