@@ -1,5 +1,5 @@
 {
-  "name": "symbio/orangegate4-analytics-dashboard-bundle",
+  "name": "symbio/orangegate4-analytics-bundle",
   "type": "symfony-bundle",
   "description": "SYMBIO OrangeGateAnalytcisDashboardBundle",
   "keywords": ["Admin Generator", "admin", "orangegate", "dashboard", "analytcis", "bootstrap"],
