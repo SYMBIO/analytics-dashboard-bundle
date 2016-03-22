@@ -1,7 +1,7 @@
 {
   "name": "symbio/orangegate4-analytics-bundle",
   "type": "symfony-bundle",
-  "description": "SYMBIO OrangeGateAnalytcisDashboardBundle",
+  "description": "SYMBIO OrangeGateAnalyticsBundle",
   "keywords": ["Admin Generator", "admin", "orangegate", "dashboard", "analytcis", "bootstrap"],
   "homepage": "http://www.symbiodigital.com/",
   "license": "MIT",
@@ -20,7 +20,7 @@
   "suggest": {
   },
   "autoload": {
-    "psr-4": { "Symbio\\OrangeGate\\AnalyticsDashboardBundle\\": "" }
+    "psr-4": { "Symbio\\OrangeGate\\AnalyticsBundle\\": "" }
   },
   "extra": {
     "branch-alias": {
