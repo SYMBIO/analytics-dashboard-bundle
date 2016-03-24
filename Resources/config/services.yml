@@ -1,0 +1,20 @@
+parameters:
+    orangegate_analytics.block.dashboard.class: Symbio\OrangeGate\AnalyticsBundle\Block\DashboardBlockService
+    orangegate_analytics.manager.google_analytics.class: Symbio\OrangeGate\AnalyticsBundle\Model\GoogleAnalyticsManager
+    orangegete_analytics.client_id: XXXXXXXXXXXX@developer.gserviceaccount.com
+    orangegete_analytics.profile_id: ga:XXXXXXXX
+    orangegete_analytics.private_key_file: "%kernel.root_dir%/Resources/bin/myPrivateKey.p12"
+
+services:
+    orangegate_analytics.block.dashboard:
+        class: %orangegate_analytics.block.dashboard.class%
+        tags:
+            - { name: sonata.block }
+        arguments: [ orangegate_analytics.block.dashboard, @templating, @sonata.admin.pool]
+
+    orangegate_analytics.manager.google_analytics:
+        class: %orangegate_analytics.manager.google_analytics.class%
+        calls:
+            - [ setProfileId, [%orangegete_analytics.profile_id%] ]
+            - [ setClientId, [%orangegete_analytics.client_id%] ]
+            - [ setPrivateKeyFile, [%orangegete_analytics.private_key_file%] ]
