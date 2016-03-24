@@ -13,7 +13,9 @@
     }
   ],
   "require": {
-    "symfony/symfony": "2.6.*"
+    "symfony/symfony": "~2.5",
+    "widop/google-analytics": "1.0.*",
+    "widop/http-adapter-bundle": "1.*"
   },
   "require-dev": {
   },
