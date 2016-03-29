@@ -10,8 +10,6 @@ use Widop\HttpAdapter\CurlHttpAdapter;
 
 class GoogleAnalyticsManager
 {
-    //used to determine if configuration is set or not
-    const DUMMY_PROFILE_ID = 'ga:YOUR_PROFIL_ID';
     /**
      * @var string
      */

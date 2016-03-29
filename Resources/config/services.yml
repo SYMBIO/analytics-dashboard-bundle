@@ -1,8 +1,8 @@
 parameters:
     orangegate_analytics.block.dashboard.class: Symbio\OrangeGate\AnalyticsBundle\Block\DashboardBlockService
     orangegate_analytics.manager.google_analytics.class: Symbio\OrangeGate\AnalyticsBundle\Model\GoogleAnalyticsManager
-    orangegete_analytics.client_id: XXXXXXXXXXXX@developer.gserviceaccount.com
-    orangegete_analytics.profile_id: ga:XXXXXXXX
+    orangegete_analytics.client_id: 808307935999-compute@developer.gserviceaccount.com
+    orangegete_analytics.profile_id: ga:71896810
     orangegete_analytics.private_key_file: "%kernel.root_dir%/Resources/bin/myPrivateKey.p12"
 
 services:
